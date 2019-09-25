@@ -1,0 +1,94 @@
+#auth-layout-container {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+/* --- Login Sidebar --- */
+#auth-layout-sidebar {
+    background: -webkit-gradient(linear, left top, left bottom, from(#00BCD4),to(#42548e));
+    height: 100%;
+    text-align: center;
+    color: #ffff;
+}
+
+#auth-layout-sidebar ul {
+    padding-top: 10rem;
+}
+
+#auth-layout-sidebar #switch-form {
+    width: 100%;
+    color: #ffff;
+    border-radius: 7px;
+    border: 1.5px solid #ffff;
+    padding: .5rem;
+    padding-left: 9vw;
+    padding-right: 9vw;
+}
+
+/* --- Login Form --- */
+#auth-layout-body #form-title {
+    color:#719df8;
+    text-shadow:rgb(87, 141, 255) 1px 1px 1px;
+}
+#auth-layout-body #form-title::first-letter {
+    text-transform: uppercase;
+}
+
+#auth-layout-body {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+#auth-layout-body ul {
+    display: grid;
+    justify-content: center;
+}
+
+#auth-layout-body ul > li {
+    width: 400px;
+    padding: 0;
+    padding-top: 1rem;
+}
+
+.auth-form-submit {
+    border:1.5px solid #719df8 !important;
+    color:#719df8 !important;
+    width: 100%;
+}
+
+#forgot-pass {
+    color:#bbbbbb;
+}
+#forgot-pass:hover {
+    text-decoration: underline;
+}
+
+/* --- Alternative login --- */
+.alt-facebook {
+    background:#1890ff;
+    margin-bottom: .5rem;
+}
+
+.alt-google {
+    background:#f5222dd4;
+    color: #ffff;
+    border-radius:15px;
+    width: 100%;
+}
+
+.alt-icon {
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 940px) {
+    .hide-940 {
+        display: none;
+    }
+}
+@media only screen and (min-width: 940px) {
+    #auth-layout-body {
+        width: 100%;
+    }
+}
+

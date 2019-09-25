@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title":"Los Ageles high rises",
+        "detail": "Most beautiful view of Los Angeles Downtown buildings at night",
+        "image": "https://exisglobal.com/wp-content/uploads/hero-Los-Angeles-skyline.jpg",
+        "purchased": false
+    },
+    {
+        "id": 2,
+        "title":"China Baijin City",
+        "detail": "Most beautiful view of Baijin Downtown buildings at night",
+        "image": "https://www.prologis.com/sites/corporate/files/styles/1_5__md_2x/public/images/2017/03/CN_Beijing_1_0.jpg?h=ed113a42&itok=xp2HhG2q",
+        "purchased": false
+    }
+]

@@ -1,0 +1,9 @@
+#project-body-inner {
+    padding-top: 3rem;
+    padding-left: 0;
+    position: absolute;
+}
+
+#body-header {
+    height: 54px;
+}

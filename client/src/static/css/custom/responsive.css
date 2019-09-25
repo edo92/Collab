@@ -1,0 +1,46 @@
+/* --- Dynamic Visibility --- */
+
+/* --- Visibility Grid --- */
+.visible-sm {
+    display: none;
+}
+.visible-md {
+    display: none;
+}
+@media only screen and (max-width: 767px) {
+    .visible-sm {
+        display: block;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .visible-md {
+        display: block;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .visible-lg {
+        display: block;
+    }
+}
+
+/* --- Hidden Grid --- */
+@media only screen and (max-width: 576px) {
+    .hidden-xs {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .hidden-sm {
+        display: none;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .hidden-md {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .hidden-lg {
+        display: none;
+    }
+}

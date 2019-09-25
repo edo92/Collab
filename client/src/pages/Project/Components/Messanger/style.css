@@ -1,0 +1,68 @@
+#messanger-container {
+    height:100vh;
+    border: 1px solid #e8e8e8;
+    transition: ease-in-out 220ms;
+}
+
+#messanger-inner {
+    background: #f2f5f8;
+    height: 100%;
+}
+
+#textBox textarea {
+    height: 130px;
+    transition: 0ms;
+}
+
+#textBox {
+    border-top: 2px solid white;
+    height: 160px;
+    bottom: 0;
+    background: rgb(242, 245, 248);
+}
+
+#sendMessage-container {
+    top: 1rem;
+    right: 1em;
+}
+
+#chat-textarea-container {
+    transition: ease-in-out 100ms;
+}
+
+#chat-textarea-inner {
+    bottom:0;
+    margin-bottom: 50px;
+}
+
+#message-section {
+    height: 500px;
+    padding: 0;
+}
+#message-section ul {
+    list-style: none;
+    overflow-y: scroll;
+}
+
+.scrolable-y {
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 500px;
+}
+
+.chat-button {
+    box-shadow: 2px -4px 17px -3px grey;
+    width: 100px;
+    padding: 15px;
+    font-size: 15px;
+    line-height: .4;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    text-transform: none;
+    white-space: nowrap;
+    border: none;
+    user-select: none;
+    border-radius: 3px;
+}

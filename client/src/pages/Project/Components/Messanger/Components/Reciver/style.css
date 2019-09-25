@@ -1,0 +1,30 @@
+.recive-message:after, .recive-message:before {
+	bottom: 100%;
+	left: 50%;
+    border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.recive-message:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: rgb(134, 187, 113);
+	border-width: 9px;
+	margin-left: 5vw;
+}
+   
+
+.recive-message {
+    background: rgb(134, 187, 113);
+    border-radius: 10px;
+    padding: 18px 20px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    position: relative;
+    color: white;
+    font-size: 16px;
+}
+

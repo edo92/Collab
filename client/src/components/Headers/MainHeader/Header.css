@@ -1,0 +1,51 @@
+#main-header {
+    background: rgb(0, 161, 187);
+    padding: 0;
+}
+
+.main-logo {
+    font-size:28px;
+    font-weight:600;
+    text-align: center;
+    line-height: 42px;
+    padding-top: .2rem;
+    margin: 0;
+    color: hsla(0, 0%, 100%, 0.82);
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.5);
+}
+
+/* --- Header Button --- */
+#loginBtn {
+    text-align: right;
+    line-height: 3;
+    padding: .25rem;
+}
+#loginBtn .main-bttn {
+    border: 1px solid #fff;
+    padding: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+}
+#loginBtn .secondery-bttn {
+    color: #fff;
+    padding-right: 1rem;
+}
+
+
+@media (min-width: 200px) and (max-width: 450px) { 
+    .main-logo {
+        font-size: 20px;
+    }
+}
+@media (min-width: 0) and (max-width: 846px) { 
+    .secondery-bttn {
+        display: none;
+    }
+}
+
+
+

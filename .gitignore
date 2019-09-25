@@ -1,0 +1,11 @@
+build
+npm-debug.log
+.env
+.DS_Store
+yarn.lock
+yarn-error.log
+package-lock
+.vscode
+node_modules
+git rm -r --cached node_modules
+package-lock.json

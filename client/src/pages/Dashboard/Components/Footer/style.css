@@ -1,0 +1,11 @@
+#dash-footer-container {
+    height: 52px;
+}
+
+#dash-footer-line {
+    background:-webkit-linear-gradient(top, #446ca2, #184076);
+    position: absolute;
+    height: 5px;
+    bottom: 0;
+}
+

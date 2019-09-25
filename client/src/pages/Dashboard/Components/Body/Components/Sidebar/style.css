@@ -1,0 +1,67 @@
+.task-card{
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    position: relative;
+    background-position: 50% center;
+    margin: 0px 8px 8px 0px;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(75, 191, 107);
+    height: 90px;
+    max-width: 235px;
+}
+
+.font-style-dash {
+    color: rgba(0, 0, 0, 0.65);
+    font-size: .9rem;
+    font-weight: 700;
+    margin-bottom:1rem;
+    cursor: pointer;
+    padding:5px 10px;
+    white-space: nowrap;
+}
+.font-style-dash:hover {
+    background: #e4f0f6c4;
+    border-radius: 4px;
+    transition: 85ms;
+    width: 100% !important;
+}
+
+
+@media (min-width: 200px) and (max-width: 575px) { 
+    #dash-action-menu{
+        padding-bottom: 3.5rem !important;
+        text-align: center;
+    }
+}
+@media (min-width: 770px) and (max-width: 991px) { 
+    #dash-action-menu{
+        padding-left: 7vw;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) { 
+    #dash-action-menu{
+        margin-left: 6vw;
+       
+    }
+    #display-projects{
+        margin-left: 3rem;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1600px) { 
+    #dash-action-menu{
+        margin-left: 6vw;
+       
+    }
+    #display-projects{
+        margin-left: 2rem;
+    }
+}
+
+.menu-font{ /* in SETTINGS */
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 5px;
+}

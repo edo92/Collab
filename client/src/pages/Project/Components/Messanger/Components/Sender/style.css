@@ -1,0 +1,28 @@
+.send-message:after, .send-message:before {
+	bottom: 100%;
+	right: 70%;
+    border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.send-message:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #94c2ed;
+	border-width: 9px;
+	margin-left: 5vw;
+}
+
+.send-message {
+    background: #94c2ed;
+    border-radius: 10px;
+    padding: 18px 20px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    position: relative;
+    color: white;
+    font-size: 16px;
+}

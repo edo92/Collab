@@ -1,0 +1,25 @@
+#dash-sidebar-container {
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    width: 100px;
+    height: 100vh;
+    background: -webkit-linear-gradient(top, #446ca2, #184076);
+}
+
+#dash-sidebar-inner {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 100%;
+}
+
+#sidebar-header {
+    background: #20487d1f;
+}
+
+.nav-icon {
+    font-size: 21px;
+    color: #fff;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}

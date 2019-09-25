@@ -1,0 +1,57 @@
+
+ul {
+    list-style: none;
+}
+
+.bttn-x {
+    color: #ffff;
+    border-radius: 15px !important;
+    width: 100%;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+.pos-relative {
+    position: relative;
+}
+.pos-fixed {
+    position: fixed;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+.overflow-y-hidden {
+    overflow-y: hidden !important;
+    padding: 0;
+    margin: 0;
+}
+
+.wiki-box {
+    display: -webkit-box;
+}
+
+.scrollable {
+    overflow: scroll;
+}
+
+.b-0 {
+    bottom: 0;
+}
+
+.word-break {
+    word-break: break-word;
+}

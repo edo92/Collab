@@ -1,0 +1,25 @@
+.project-box {
+    background: rgba(46, 86, 144, 0.88);
+    height: 150px;
+    border-radius: .5rem;
+    padding: .75rem;
+}
+.box-title {
+    color: #fff;
+    padding: 0;
+}
+
+.box-icons {
+    text-align: right;
+    color: #fff;
+}
+.box-icons > i {
+    margin-left: .25rem;
+    padding-right: .25rem;
+}
+
+@media (min-width: 0) and (max-width: 575px) { 
+    #dash-project-showcase {
+        padding-top: 13rem;
+    }
+}
